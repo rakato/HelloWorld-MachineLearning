@@ -7,7 +7,7 @@
 
 * Logisitic Regression:
 
-  - Iris Data Set in R
+  - <a href = "https://github.com/rakato/HelloWorld-MachineLearning/blob/master/pima_glm.r" > Pima Data Set in R </a>
   - Iris Data Set in Python
   
  
