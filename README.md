@@ -1,3 +1,4 @@
 # HelloWorld-MachineLearning
-## Repository for beginnning steps in machine learning
+
+## Repository for beginning steps in machine learning in R and Python
 
