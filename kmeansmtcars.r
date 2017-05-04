@@ -6,6 +6,7 @@ data("mtcars")
 #kmeans with "n" clusters
 fit <- kmeans(mtcars, 3) # pick number of clusters, eg "3"
 
+#apply the function "mean" to the dataframe
 aggregate(mtcars, by=list(fit$cluster),FUN=mean)
 
 #make dataframe
