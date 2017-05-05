@@ -12,19 +12,29 @@ from keras.utils import np_utils
 seed = 123
 numpy.random.seed(seed)
 
+#load data
 (X_train, y_train), (X_test, y_test) = mnist.load_data()
 
+#flatten pixels into a vector
 num_pixels = X_train.shape[1] * X_train.shape[2]
 X_train = X_train.reshape(X_train.shape[0], num_pixels).astype('float32')
 X_test = X_test.reshape(X_test.shape[0], num_pixels).astype('float32')
 
-
+#normalize data so that it all falls bewteen 0-1
 X_train = X_train / 255
 X_test = X_test / 255
 
+#one hot encoding for categorical variables, eg:  1,0,0  0,1,0  0,0,1
 y_train = np_utils.to_categorical(y_train)
 y_test = np_utils.to_categorical(y_test)
 num_classes = y_test.shape[1]
+
+#a simple neural network with one hidden layer with the same number of neurons as there are inputs (784).
+#A rectifier activation function is used for the neurons in the hidden layer.
+#A softmax activation function is used on the output layer to turn the outputs into probability-
+#like values and allow one class of the 10 to be selected as the model’s output prediction.
+#Logarithmic loss is used as the loss function (called categorical_crossentropy in Keras) 
+#and the efficient ADAM gradient descent algorithm is used to learn the weights.
 
 def baseline_model():
 	# create model
