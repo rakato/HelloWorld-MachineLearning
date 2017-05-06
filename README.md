@@ -5,6 +5,8 @@
 * Linear Regression
   - Housing Data Set in R
 
+* Time Series Forecasting
+  
 * Logisitic Regression:
 
   - <a href = "https://github.com/rakato/HelloWorld-MachineLearning/blob/master/pima_glm.r" > Pima Data Set in R </a>
