@@ -6,6 +6,8 @@
   - Housing Data Set in R
 
 * Time Series Forecasting
+  - ARIMA in r
+  - ARIMA in Python
   
 * Logisitic Regression:
 
