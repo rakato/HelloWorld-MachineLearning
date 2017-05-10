@@ -15,6 +15,9 @@
    - <a href = "https://github.com/rakato/HelloWorld-MachineLearning/blob/master/pima_logistic.py" > Pima Data Set in Python </a>
 
 * Multiple Models on Pima Dataset  
+  
+   - <a href = "https://github.com/rakato/HelloWorld-MachineLearning/blob/master/multiple_models_pima.r" > CART, LDA, SVM, kNN, Random Forest in R </a>
+
  
 * Clustering
 
