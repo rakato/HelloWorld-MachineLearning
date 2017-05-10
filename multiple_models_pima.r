@@ -38,7 +38,9 @@ plot(results, type=c("g", "o"))
 #run a number of algos on Pima Indians  dataset
 #CART, LDA, SVM, kNN, Random Forest, 
 
+#cross validation
 control <- trainControl(method="repeatedcv", number=10, repeats=3)
+
 set.seed(7)
 # CART
 fit.cart <- train(diabetes~., data=PimaIndiansDiabetes, method="rpart", trControl=control)
@@ -63,7 +65,9 @@ summary(results)
 
 #plot results
 scales <- list(x=list(relation="free"), y=list(relation="free"))
+#boxplots
 bwplot(results, scales=scales)
+
 scales <- list(x=list(relation="free"), y=list(relation="free"))
 densityplot(results, scales=scales, pch = "|")
 
