@@ -79,11 +79,30 @@ scales <- list(x=list(relation="free"), y=list(relation="free"))
 #boxplots
 bwplot(results, scales=scales)
 
-scales <- list(x=list(relation="free"), y=list(relation="free"))
-densityplot(results, scales=scales, pch = "|")
 
-#scatterplot matrix
-splom(results)
+
+#gbm with Sonar datset
+library(gbm)
+data("Sonar")
+dataset<- Sonar
+x<- dataset[,1:60] #using these variables
+y<- dataset[,61] #solving for this variable
+
+set.seed(123)
+control<- trainControl(method="repeatedcv", number=10, repeats=3)
+fit.gbmsonar<- train(Class~., Sonar, method="gbm", metric="Accuracy")
+
+#plot accuracy vs boosting iterations and tree depth
+plot(fit.gbmsonar, type=c("g","o"))
+
+
+
+
+
+
+
+
+
 
 
 
