@@ -22,6 +22,7 @@ control <- trainControl(method="repeatedcv", number=10, repeats=3)
 
 
 # train the model
+#The default method for optimizing tuning parameters in train is to use a grid search
 model <- train(diabetes~., data=PimaIndiansDiabetes, method="lvq", preProcess="scale", trControl=control)
 
 #ROC Curve for variable importance
@@ -48,6 +49,7 @@ control <- trainControl(method="repeatedcv", number=10, repeats=3)
 
 set.seed(7)
 # CART
+#The default method for optimizing tuning parameters in train is to use a grid search
 fit.cart <- train(diabetes~., data=PimaIndiansDiabetes, method="rpart", trControl=control)
 # LDA
 set.seed(7)
