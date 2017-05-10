@@ -14,8 +14,9 @@ corrmatrix <- cor(PimaIndiansDiabetes[,1:8])
 # summarize correlation matrix
 corrplot(corrmatrix)
 
-#set up cross validation methods
+#Control the computational nuances of the train function
 control <- trainControl(method="repeatedcv", number=10, repeats=3)
+
 # train the model
 model <- train(diabetes~., data=PimaIndiansDiabetes, method="lvq", preProcess="scale", trControl=control)
 
@@ -38,7 +39,7 @@ plot(results, type=c("g", "o"))
 #run a number of algos on Pima Indians  dataset
 #CART, LDA, SVM, kNN, Random Forest
 
-#cross validation
+#Control the computational nuances of the train function
 control <- trainControl(method="repeatedcv", number=10, repeats=3)
 
 set.seed(7)
