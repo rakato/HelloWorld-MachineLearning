@@ -16,6 +16,10 @@ corrplot(corrmatrix)
 
 #Control the computational nuances of the train function
 control <- trainControl(method="repeatedcv", number=10, repeats=3)
+#method=The resampling method
+#number=Either the number of folds or number of resampling iterations
+#repeats= For repeated k-fold cross-validation only: the number of complete sets of folds to compute
+
 
 # train the model
 model <- train(diabetes~., data=PimaIndiansDiabetes, method="lvq", preProcess="scale", trControl=control)
