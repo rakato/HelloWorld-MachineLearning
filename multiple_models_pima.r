@@ -14,7 +14,7 @@ corrmatrix <- cor(PimaIndiansDiabetes[,1:8])
 # summarize correlation matrix
 corrplot(corrmatrix)
 
-
+#set up cross validation methods
 control <- trainControl(method="repeatedcv", number=10, repeats=3)
 # train the model
 model <- train(diabetes~., data=PimaIndiansDiabetes, method="lvq", preProcess="scale", trControl=control)
@@ -64,6 +64,8 @@ scales <- list(x=list(relation="free"), y=list(relation="free"))
 bwplot(results, scales=scales)
 scales <- list(x=list(relation="free"), y=list(relation="free"))
 densityplot(results, scales=scales, pch = "|")
+
+#scatterplot matrix
 splom(results)
 
 
