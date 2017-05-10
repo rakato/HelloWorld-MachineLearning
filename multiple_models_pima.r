@@ -36,7 +36,7 @@ plot(results, type=c("g", "o"))
 
 
 #run a number of algos on Pima Indians  dataset
-#CART, LDA, SVM, kNN, Random Forest, 
+#CART, LDA, SVM, kNN, Random Forest
 
 #cross validation
 control <- trainControl(method="repeatedcv", number=10, repeats=3)
