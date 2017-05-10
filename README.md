@@ -16,7 +16,7 @@
 
 * Multiple Models on Pima Dataset  
   
-   - <a href ="https://topepo.github.io/caret/pre-processing.html#pp" > Preprocessing with Caret Library </a>
+   - <a href ="https://topepo.github.io/caret/pre-processing.html#pp" > Pre-Processing with Caret Library </a>
    - <a href = "https://github.com/rakato/HelloWorld-MachineLearning/blob/master/multiple_models_pima.r" > CART, LDA, SVM, kNN, Random Forest in R </a>
 
  
