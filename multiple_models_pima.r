@@ -36,6 +36,7 @@ plot(results, type=c("g", "o"))
 
 
 #run a number of algos on Pima Indians  dataset
+#CART, LDA, SVM, kNN, Random Forest, 
 
 control <- trainControl(method="repeatedcv", number=10, repeats=3)
 set.seed(7)
@@ -53,6 +54,7 @@ fit.knn <- train(diabetes~., data=PimaIndiansDiabetes, method="knn", trControl=c
 # Random Forest
 set.seed(7)
 fit.rf <- train(diabetes~., data=PimaIndiansDiabetes, method="rf", trControl=control)
+
 # collect resamples
 results <- resamples(list(CART=fit.cart, LDA=fit.lda, SVM=fit.svm, KNN=fit.knn, RF=fit.rf))
 
