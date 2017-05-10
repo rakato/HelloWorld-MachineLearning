@@ -14,7 +14,7 @@
   - <a href = "https://github.com/rakato/HelloWorld-MachineLearning/blob/master/pima_glm.r" > Pima Data Set in R </a>
    - <a href = "https://github.com/rakato/HelloWorld-MachineLearning/blob/master/pima_logistic.py" > Pima Data Set in Python </a>
 
-  
+* Multiple Models on Pima Dataset  
  
 * Clustering
 
