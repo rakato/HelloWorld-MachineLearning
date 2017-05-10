@@ -3,6 +3,7 @@ set.seed(123)
 library(mlbench)
 library(caret)
 library(corrplot)
+library(fastAdaboost)#for running Adaboost from Caret package
 
 data(PimaIndiansDiabetes)
 
@@ -63,9 +64,12 @@ fit.knn <- train(diabetes~., data=PimaIndiansDiabetes, method="knn", trControl=c
 # Random Forest
 set.seed(7)
 fit.rf <- train(diabetes~., data=PimaIndiansDiabetes, method="rf", trControl=control)
+#Adaboost
+set.seed(7)
+fit.ada <- train(diabetes~., data=PimaIndiansDiabetes, method="adaboost", trControl=control)
 
 # collect resamples
-results <- resamples(list(CART=fit.cart, LDA=fit.lda, SVM=fit.svm, KNN=fit.knn, RF=fit.rf))
+results <- resamples(list(CART=fit.cart, LDA=fit.lda, SVM=fit.svm, KNN=fit.knn, RF=fit.rf, ADA=fit.ada))
 
 #compare accuracy and kappa
 summary(results)
