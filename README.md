@@ -19,7 +19,8 @@
    - <a href ="https://topepo.github.io/caret/pre-processing.html#pp" > Pre-Processing with Caret Library </a>
    - <a href = "https://github.com/rakato/HelloWorld-MachineLearning/blob/master/multiple_models_pima.r" > CART, LDA, SVM, kNN, Random Forest in R </a>
    - <a href = "https://github.com/topepo/caret/tree/master/models/files" > List of Caret Models and Code in R </a>
- 
+   - <a href ="https://www.cs.rit.edu/~rlaz/prec20092/slides/Bagging_and_Boosting.pdf" > RIT Bagging and Boosting pdf </a>
+    
 * Clustering
 
   - <a href = "https://github.com/rakato/HelloWorld-MachineLearning/blob/master/kmeansmtcars.r"> K-Means Mtcars Data Set in R </a>
