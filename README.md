@@ -23,6 +23,7 @@
  * Boosting
    - <a href ="https://www.cs.rit.edu/~rlaz/prec20092/slides/Bagging_and_Boosting.pdf" > RIT Bagging and Boosting pdf </a>
    - <a href ="https://en.wikipedia.org/wiki/AdaBoost"> Ada Boost Wikipedia </a>
+   - <a href ="https://www.quora.com/What-is-an-intuitive-explanation-of-Gradient-Boosting"> Quora Intuative Gradient Boosting Explanation </a>
    
 * Clustering
 
