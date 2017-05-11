@@ -48,25 +48,23 @@ plot(results, type=c("g", "o"))
 #Control the computational nuances of the train function
 control <- trainControl(method="repeatedcv", number=10, repeats=3)
 
-set.seed(7)
+set.seed(123)
 # CART
 #The default method for optimizing tuning parameters in train is to use a grid search
 fit.cart <- train(diabetes~., data=PimaIndiansDiabetes, method="rpart", trControl=control)
 # LDA
-set.seed(7)
 fit.lda <- train(diabetes~., data=PimaIndiansDiabetes, method="lda", trControl=control)
 # SVM
-set.seed(7)
 fit.svm <- train(diabetes~., data=PimaIndiansDiabetes, method="svmRadial", trControl=control)
 # kNN
-set.seed(7)
 fit.knn <- train(diabetes~., data=PimaIndiansDiabetes, method="knn", trControl=control)
 # Random Forest
-set.seed(7)
 fit.rf <- train(diabetes~., data=PimaIndiansDiabetes, method="rf", trControl=control)
 #Adaboost
-set.seed(7)
 fit.ada <- train(diabetes~., data=PimaIndiansDiabetes, method="adaboost", trControl=control)
+
+#Stochastic Gradient Boosting
+fit.gbm<- train(diabetes~., PimaIndiansDiabetes, method="gbm", trControl=control)
 
 # collect resamples
 results <- resamples(list(CART=fit.cart, LDA=fit.lda, SVM=fit.svm, KNN=fit.knn, RF=fit.rf, ADA=fit.ada))
