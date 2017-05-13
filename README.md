@@ -19,7 +19,7 @@
    - <a href ="https://topepo.github.io/caret/pre-processing.html#pp" > Pre-Processing with Caret Library </a>
    - <a href = "https://github.com/rakato/HelloWorld-MachineLearning/blob/master/multiple_models_pima.r" > CART, LDA, SVM, kNN, Random Forest in R </a>
    - <a href = "https://github.com/topepo/caret/tree/master/models/files" > List of Caret Models and Code in R </a>
-   
+   - <a href ="http://scikit-learn.org/stable/index.html" > Scikit-Learn Index </a>
  * Boosting
    - <a href ="https://www.cs.rit.edu/~rlaz/prec20092/slides/Bagging_and_Boosting.pdf" > RIT Bagging and Boosting pdf </a>
    - <a href ="https://en.wikipedia.org/wiki/AdaBoost"> Ada Boost Wikipedia </a>
