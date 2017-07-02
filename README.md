@@ -41,3 +41,7 @@
   - <a href = "https://github.com/rakato/HelloWorld-MachineLearning/blob/master/MNISTMultiLayer_perceptron.py"> Multi-Layer Perceptron in Python </a>
 
   - <a href = "https://blog.keras.io/building-powerful-image-classification-models-using-very-little-data.html"> Cats and Dogs Image Recognition on very little data- Chollet example </a>
+  
+  
+  * <a href = "http://sebastianruder.com/optimizing-gradient-descent/" > Gradient Descent Overview </a>
+  
