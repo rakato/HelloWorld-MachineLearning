@@ -26,6 +26,9 @@
    - <a href ="https://www.quora.com/What-is-an-intuitive-explanation-of-Gradient-Boosting"> Quora Intuative Gradient Boosting Explanation </a>
    - <a href = "https://shankarmsy.github.io/stories/gbrt-sklearn.html" > Cal Housing Prices Boosting Trees for Regression Example </a>
    - <a href = "https://xgboost.readthedocs.io/en/latest/parameter.html"> Boosting Parameters <a/>
+   - <a href = "https://homes.cs.washington.edu/~tqchen/pdf/BoostedTree.pdf"> U of W:  Intro to Boosting <a/>
+  
+  
 * Clustering
 
   - <a href = "https://github.com/rakato/HelloWorld-MachineLearning/blob/master/kmeansmtcars.r"> K-Means Mtcars Data Set in R </a>
