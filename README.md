@@ -23,7 +23,10 @@
  * Boosting
    - <a href ="https://www.cs.rit.edu/~rlaz/prec20092/slides/Bagging_and_Boosting.pdf" > RIT Bagging and Boosting pdf </a>
    - <a href ="https://en.wikipedia.org/wiki/AdaBoost"> Ada Boost Wikipedia </a>
-   - <a href ="https://www.quora.com/What-is-an-intuitive-explanation-of-Gradient-Boosting"> Quora Intuative Gradient Boosting Explanation </a>
+   - <a href ="https://www.quora.com/What-is-an-intuitive-explanation-of-Gradient-Boosting"> Quora Intuative Gradient Boosting
+   - <a href ="https://arxiv.org/pdf/1603.02754v1.pdf"> XGBoost: A Scalable Tree Boosting System
+
+  Explanation </a>
    - <a href = "https://shankarmsy.github.io/stories/gbrt-sklearn.html" > Cal Housing Prices Boosting Trees for Regression Example </a>
    - <a href = "https://xgboost.readthedocs.io/en/latest/parameter.html"> Boosting Parameters <a/>
    - <a href = "https://homes.cs.washington.edu/~tqchen/pdf/BoostedTree.pdf"> U of W:  Intro to Boosting <a/>
