@@ -50,4 +50,5 @@
   
 * Optimization  
   -<a href = "http://sebastianruder.com/optimizing-gradient-descent/" > Gradient Descent Overview </a>
+  -<a href = "https://www.cs.toronto.edu/~urtasun/courses/CSC2515/tutorial_optimization.pdf" > Optimization for Machine Learning</a>
   
