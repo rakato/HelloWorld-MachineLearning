@@ -48,5 +48,6 @@
   - <a href = "https://blog.keras.io/building-powerful-image-classification-models-using-very-little-data.html"> Cats and Dogs Image Recognition on very little data- Chollet example </a>
   
   
-  * <a href = "http://sebastianruder.com/optimizing-gradient-descent/" > Gradient Descent Overview </a>
+* Optimization  
+  -<a href = "http://sebastianruder.com/optimizing-gradient-descent/" > Gradient Descent Overview </a>
   
