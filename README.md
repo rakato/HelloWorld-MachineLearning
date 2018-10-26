@@ -28,7 +28,11 @@
    - <a href = "https://shankarmsy.github.io/stories/gbrt-sklearn.html" > Cal Housing Prices Boosting Trees for Regression Example </a>
    - <a href = "https://xgboost.readthedocs.io/en/latest/parameter.html"> Boosting Parameters <a/>
    - <a href = "https://homes.cs.washington.edu/~tqchen/pdf/BoostedTree.pdf"> U of W:  Intro to Boosting <a/>
-  
+
+* XGBoost
+   - <a href ="https://machinelearningmastery.com/avoid-overfitting-by-early-stopping-with-xgboost-in-python/" > Avoid Overfitting By Early Stopping </a>
+   - <a href = "https://machinelearningmastery.com/tune-learning-rate-for-gradient-boosting-with-xgboost-in-python/"> Tune Learning Rate <a/>
+
   
 * Clustering
 
