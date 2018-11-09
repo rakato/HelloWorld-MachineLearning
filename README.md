@@ -33,6 +33,7 @@
    - <a href ="https://machinelearningmastery.com/avoid-overfitting-by-early-stopping-with-xgboost-in-python/" > Avoid Overfitting By Early Stopping </a>
    - <a href = "https://machinelearningmastery.com/tune-learning-rate-for-gradient-boosting-with-xgboost-in-python/"> Tune Learning Rate <a/>
    - <a href = "https://github.com/dmlc/xgboost/tree/master/demo#usecases"> Awesome XGBoost <a/>
+   - <a href = "https://towardsdatascience.com/catboost-vs-light-gbm-vs-xgboost-5f93620723db"> Catboost vs. Light GBM vs. XGBoost <a/>
   
 * Clustering
 
